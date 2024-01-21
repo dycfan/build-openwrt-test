@@ -12,10 +12,10 @@ on:
       source_branch:
         description: "Select the source branch"
         required: false
-        default: "openwrt-main"
+        default: "openwrt-archive"
         type: choice
         options:
-          - openwrt-main
+          - openwrt-archive
           - lede-master
           - immortalwrt-master
           - Lienol-master
